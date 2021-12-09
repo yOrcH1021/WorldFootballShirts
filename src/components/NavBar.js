@@ -5,7 +5,7 @@ const CartWidget = ()=>(
 )
 
 function NavBar(props){
-    const {item1:item_1, item2:item_2} = props
+    const {item1:item_1, item2:item_2, item3:item_3, item4:item_4} = props
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light p-4">
             <div class="container-fluid">
@@ -22,10 +22,10 @@ function NavBar(props){
                             <a class="nav-link" href="">{item_2}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">National Teams</a>
+                            <a class="nav-link" href="">{item_3}</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Players</a>
+                            <a class="nav-link" href="">{item_4}</a>
                         </li>
                     </ul>
                 </div>
